@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-export const Statistics = ({ label, percentage }) => {
+export const StatisticsStats = ({ label, percentage }) => {
     return (
         <>
             <span className="label">{label}</span>
@@ -10,7 +10,7 @@ export const Statistics = ({ label, percentage }) => {
 
 }
 
-Statistics.propTypes = {
+StatisticsStats.propTypes = {
     label: PropTypes.string,
     percentage: PropTypes.number,
 }

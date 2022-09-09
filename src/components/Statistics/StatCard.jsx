@@ -1,20 +1,21 @@
-import { Statistics } from "./Statistics"
+import { StatisticsStats } from "./StatisticsStats"
+import { StatisticsTitle } from "./StatisticsTitle";
 
 
-export const StatCard = ({items}) => {
+export const StatCard = ({stats, title}) => {
     return (
 
         <section className="statistics">
-            <h2 className="title">Upload stats</h2>
+            {title && <StatisticsTitle title="Upload stats" stats={title} />}
 
             
 
             <ul className="stat-list">
                 {
-                    items.map(item => (
+                    stats.map(item => (
                         <li key={item.id}>
-                            <Statistics
-                                label={item.lasbel}
+                            <StatisticsStats
+                                label={item.label}
                                 percentage={item.percentage}
                             />
                         </li>
