@@ -4,6 +4,8 @@ import { StatCard } from "./Statistics/StatCard";
 import data from 'components/info/data.json';
 import { FriendList } from "./Friends/FriendList";
 import friends from "components/info/friends.json"
+import { TransactionTable } from "./Transactions/TransactionTable";
+import transactions from "components/info/transactions.json"
 
 export const App = () => {
   return (
@@ -28,7 +30,9 @@ export const App = () => {
 
      <StatCard stats={data} />
         
-      <FriendList friends={friends}/>
+      <FriendList friends={friends} />
+      
+      <TransactionTable transactions={transactions} />
     </div>
   );
 };

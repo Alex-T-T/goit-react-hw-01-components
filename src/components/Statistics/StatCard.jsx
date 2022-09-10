@@ -1,3 +1,4 @@
+import PropTypes from "prop-types"
 import { StatisticsStats } from "./StatisticsStats"
 import { StatisticsTitle } from "./StatisticsTitle";
 
@@ -6,9 +7,9 @@ export const StatCard = ({stats, title}) => {
     return (
 
         <section className="statistics">
-            {title && <StatisticsTitle title="Upload stats" stats={title} />}
-
             
+            <StatisticsTitle title="Upload stats" stats={title} />
+
 
             <ul className="stat-list">
                 {
@@ -24,4 +25,12 @@ export const StatCard = ({stats, title}) => {
             </ul>
         </section>
     );
+}
+
+StatCard.propTypes = {
+    stats: PropTypes.arrayOf(
+        PropTypes.shape({
+            id: PropTypes.string.isRequired
+        })
+    )
 }
