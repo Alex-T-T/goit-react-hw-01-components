@@ -4,6 +4,9 @@
     margin-bottom: 80px;
     padding: 15px;
     border-radius: 4px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .title {
@@ -11,6 +14,9 @@
     background: linear-gradient(to right, #ffd89b, #19547b);
     margin-bottom: 10px;
     border-radius: 4px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .statList {
@@ -31,6 +37,9 @@
     border: 1px solid #19547b;
     background: linear-gradient(to right, #ffd89b, #19547b);
     border-radius: 4px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .statItem:last-child {

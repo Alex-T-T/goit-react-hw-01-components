@@ -8,6 +8,9 @@
     padding: 30px;
     margin-bottom: 80px;
     border-radius: 4px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .description {
@@ -24,6 +27,9 @@
     margin-bottom: 10px;
     border-radius: 50%;
     background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    box-shadow: 5px -3px 34px 3px rgba(118, 26, 26, 0.53);
+        -webkit-box-shadow: 5px -3px 34px 3px rgba(118, 26, 26, 0.53);
+        -moz-box-shadow: 5px -3px 34px 3px rgba(118, 26, 26, 0.53);
 }
 
 .name {
@@ -61,6 +67,9 @@
     margin-right: 10px;
     border-radius: 4px;
     padding: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .statsItem:last-child {
