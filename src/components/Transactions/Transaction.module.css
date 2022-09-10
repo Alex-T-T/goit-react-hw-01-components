@@ -1,0 +1,17 @@
+
+.transactionHistory {
+    width: 800px;
+    text-align: center;
+    background: linear-gradient(to right, #b6fbff, #83a4d4);
+    border-radius: 4px;
+}
+
+.transactionHistory thead {
+    color: #11998e;
+    border: 2px solid red;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+.transactionHistory td {
+    
+    border: 2px solid red;
+}

@@ -1,12 +1,13 @@
 .profile {
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    width: 100%;
     background: linear-gradient(to right, #ff7e5f, #feb47b);
-   padding: 30px;
-    margin-bottom: 40px;
+    padding: 30px;
+    margin-bottom: 80px;
+    border-radius: 4px;
 }
 
 .description {
@@ -21,6 +22,8 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
 
 .name {
@@ -46,7 +49,8 @@
 }
 
 .statsItem {
-    width: 160px;
+    width: 120px;
+    font-size: 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -1,4 +1,5 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
+
 
 export const TransactionRow = ({type, amount, currency}) =>   {    
 
