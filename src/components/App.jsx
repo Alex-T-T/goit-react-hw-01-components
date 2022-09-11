@@ -1,11 +1,11 @@
 import { Profile } from "./Profile/Profile";
-import user from 'components/info/user';
+import user from '../data/user.json';
 import { StatCard } from "./Statistics/StatCard";
-import data from 'components/info/data.json';
+import data from '../data/data.json';
 import { FriendList } from "./Friends/FriendList";
-import friends from "components/info/friends.json"
+import friends from "../data/friends.json"
 import { TransactionTable } from "./Transactions/TransactionTable";
-import transactions from "components/info/transactions.json"
+import transactions from "../data/transactions.json"
 
 export const App = () => {
   return (
